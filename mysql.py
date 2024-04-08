@@ -2,8 +2,8 @@
 from peewee import *
 
 
-db = MySQLDatabase('spfans', user='root', password='Qwe134134@',
-                   host='101.42.19.26', port=3306)
+db = MySQLDatabase('@@@@@', user='root', password='@@@@@@@@@',
+                   host='@@@@@@@@', port=3306)
 
 class Novel(Model):
     id = AutoField(primary_key=True)
